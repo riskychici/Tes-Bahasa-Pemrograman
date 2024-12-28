@@ -1,0 +1,15 @@
+h1 {
+  color: gold; /* Menentukan warna teks */
+  text-transform: uppercase; /* Mengubah kapitalis teks */
+  letter-spacing: 12px; /* Mengatur jarak antar karakter pada teks */
+}
+
+p {
+  text-align: justify; /* Mengatur perataan teks dalam elemen blok (center/rata tengah, justify/rata kiri kanan */
+  text-indent: 50px; /* Menentukan jarak indentasi (penjorokan/lebih masuk ke dalam) pada baris pertama sebuah paragraf. */
+  word-spacing: 20px; /* Mengatur jarak antar kata pada teks */
+}
+
+a {
+  text-decoration: none; /* Menambahkan/menghapus dekorasi pada teks (menambahkan garis underline atau menghapus garis pada link) */
+}

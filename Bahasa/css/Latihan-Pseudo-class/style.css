@@ -1,0 +1,62 @@
+/* Pseudo-class Link */
+.hello:link {
+  /* Untuk mengaktifkan Pseucode-class menggunakan titik dua(:) setelah nama class dan masukkan atribut Pseudo-class */
+  color: orange;
+}
+
+.hello:hover {
+  /* Hover adalah atribut Pseudo-class ketika kursor(mouse) berada di atas link */
+  color: green;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.hello:active {
+  /* Active adalah atribut Pseudo-class ketika link di klik */
+  font-style: italic;
+}
+
+.hello:visited {
+  /* Visited adalah atribut Pseudo-class ketika link sudah pernah di kunjungi makan warnanya akan berubah */
+  color: red;
+}
+
+/* Pseudo-class yang berhubungan dengan posisi elemen(1) */
+li:first-child a {
+  /* Menyeleksi elemen (a) yang ada di dalam (li) pertama */
+  color: green;
+}
+
+li:last-child a {
+  /* Menyeleksi elemen (a) yang ada di dalam (li) terakhir */
+  color: green;
+}
+
+li:nth-child(5) a {
+  /* Menyeleksi link (a) yang ada di dalam <li> yang merupakan anak ke-5 */
+  color: cyan;
+}
+
+li:nth-child(3n) a {
+  /* Menyeleksi link (a) yang ada di dalam (li) yang merupakan kelipatan ke-3 */
+  /* Bisa di (+) dan (-) untuk memindahkan posisi kelipatan dimulai dari mana */
+  color: red;
+
+  /* Bisa juga untuk genap dan ganjil dengan mengganti yang di dalam kurung dengan even(genap) dan odd(ganjil) */
+}
+
+li:nth-child(even) a:hover {
+  /* Menyeleksi link (a) yang ada di dalam (li) genap ketika diarahkan dengan hover */
+  color: gold;
+}
+
+/* Pseudo-class yang berhubungan dengan posisi elemen(2) */
+p:first-of-type {
+  /* Memilih elemen pertama dari sebuah jenis / tipe tag */
+  color: red;
+}
+
+p:last-of-type {
+  /* Memilih elemen terakhir dari sebuah jenis / tipe tag */
+  color: blue;
+}

@@ -1,0 +1,11 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif; /* Menentukan jenis font yang di gunakan pada teks */
+  font-size: 50px; /* Mengatur ukuran teks */
+  font-weight: bold; /* Mengatue ketebalan teks */
+  font-variant: small-caps; /* Mengubah tampilan teks menjadi huruf kapital kecil (small-caps) */
+  font-style: italic; /* Menentukan gaya teks */
+}
+
+p {
+  line-height: 1.5; /* Mengatur jarak antar baris teks */
+}

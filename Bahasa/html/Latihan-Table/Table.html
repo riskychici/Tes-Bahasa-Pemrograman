@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabel</title>
+  </head>
+  <body>
+    <h1>Macam-macam Tabel dan Penggabungan</h1>
+    <hr />
+    <!-- Tabel sederhana -->
+    <p>
+      <strong><li>Tabel sederhana</li></strong>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <tr>
+        <td>Baris 1, Kolom 1</td>
+        <td>baris 1, kolom 2</td>
+      </tr>
+      <tr>
+        <td>Baris 2, Kolom 1</td>
+        <td>baris 2, kolom 2</td>
+      </tr>
+    </table>
+
+    <!-- Tabel kompleks -->
+    <p>
+      <strong><li>Tabel Kompleks</li></strong>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Kolom 1</th>
+          <th>kolom 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Baris 1</th>
+          <td>Baris 1, Kolom 1</td>
+          <td>Baris 1, Kolom 2</td>
+        </tr>
+        <tr>
+          <th>Baris 2</th>
+          <td>Baris 2, Kolom 1</td>
+          <td>Baris 2, Kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <hr />
+
+    <!-- colspan (Menggabungkan 2 Sel/Kolom horizontal) -->
+    <p>
+      <strong
+        ><li>Tabel colspan (Menggabungkan 2 Sel/Kolom horizontal)</li></strong
+      >
+    </p>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Nama Team</th>
+          <th colspan="6">Player</th>
+        </tr>
+        <tr>
+          <th>~ ~ ~</th>
+          <th>Jungler</th>
+          <th>Gold Lane</th>
+          <th>Mid Lane</th>
+          <th>Exp Lane</th>
+          <th>Roamer</th>
+          <th>Cadangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>RRQ HOSHI</th>
+          <td>Sutsujin</td>
+          <td>Skylar</td>
+          <td>Rinz</td>
+          <td>Dyrenn</td>
+          <td>Idok</td>
+          <td>Hazle</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>TEAM LIQUID ID</th>
+          <td>Favian</td>
+          <td>AeronShikii</td>
+          <td>Yehezkiel</td>
+          <td>Aran</td>
+          <td>Widy</td>
+          <td>Yawi</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- rowspan (Menggabungkan 2 Sel/Kolom vertikal) -->
+    <p>
+      <strong
+        ><li>Tabel rowspan (Menggabungkan 2 Sel/Kolom vertikal)</li></strong
+      >
+    </p>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <thead>
+        <tr>
+          <th rowspan="2">Nama Team</th>
+          <th>Player</th>
+          <th>~ ~ ~</th>
+          <th>~ ~ ~</th>
+          <th>~ ~ ~</th>
+          <th>~ ~ ~</th>
+          <th>~ ~ ~</th>
+        </tr>
+        <tr>
+          <th>Jungler</th>
+          <th>Gold Lane</th>
+          <th>Mid Lane</th>
+          <th>Exp Lane</th>
+          <th>Roamer</th>
+          <th>Cadangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>RRQ HOSHI</th>
+          <td>Sutsujin</td>
+          <td>Skylar</td>
+          <td>Rinz</td>
+          <td>Dyrenn</td>
+          <td>Idok</td>
+          <td>Hazle</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>TEAM LIQUID ID</th>
+          <td>Favian</td>
+          <td>AeronShikii</td>
+          <td>Yehezkiel</td>
+          <td>Aran</td>
+          <td>Widy</td>
+          <td>Yawi</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <hr />
+
+    <!-- colspan & rowspan (Menggabungkan Sel/Kolom horizontal & vertikal) -->
+    <p>
+      <strong
+        ><li>
+          Tabel colspan & rowspan (Menggabungkan Sel/Kolom horizontal &
+          vertikal)
+        </li></strong
+      >
+    </p>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <thead>
+        <tr>
+          <th rowspan="2">Nama Team</th>
+          <th colspan="6">Player</th>
+        </tr>
+        <tr>
+          <th>Jungler</th>
+          <th>Gold Lane</th>
+          <th>Mid Lane</th>
+          <th>Exp Lane</th>
+          <th>Roamer</th>
+          <th>Cadangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>RRQ HOSHI</th>
+          <td>Sutsujin</td>
+          <td>Skylar</td>
+          <td>Rinz</td>
+          <td>Dyrenn</td>
+          <td>Idok</td>
+          <td>Hazle</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>TEAM LIQUID ID</th>
+          <td>Favian</td>
+          <td>AeronShikii</td>
+          <td>Yehezkiel</td>
+          <td>Aran</td>
+          <td>Widy</td>
+          <td>Yawi</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+  </body>
+</html>

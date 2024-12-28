@@ -1,0 +1,45 @@
+/* Selector Elemen HTML */
+body {
+  font-family: arial;
+}
+
+h1,
+h2 {
+  /* Jika memiliki properti yg sama maka pake koma(,) */
+  color: green;
+}
+
+h2 {
+  font-style: italic;
+}
+
+ul li a {
+  /* Jika lebih spesifik(masuk ke dalam elemen) maka pake spasi */
+  color: orange;
+}
+
+ol li a {
+  color: red;
+}
+
+/* Selector Khusus */
+
+#p1 {
+  /* Menggunakan id pake pagar(#) */
+  color: blue;
+}
+
+.p2 {
+  /* Menggunakan class pake titik(.) */
+  color: orange;
+}
+
+.cetak-tebal {
+  /* Mencari class yang terdapat nama cetak-tebal agar font menjadi bold */
+  font-weight: bold;
+}
+
+p.cetak-tebal {
+  /* Mencari paragraf(p) tapi yang memiliki class cetak-tebal (selain paragraf meskipun terdapat class yang bernama cetak-tebal maka tidak akan terpengaruh */
+  font-size: 20px;
+}
